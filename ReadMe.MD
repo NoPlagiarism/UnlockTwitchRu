@@ -63,10 +63,10 @@
   - [Актуальные данные есть на сайте info.dns.malw.link](https://info.dns.malw.link) / [Telegram канал](https://t.me/immalware)
   - Данные для подключения
     - DNS IPv4
-      - `45.95.233.23`
+      - `84.21.189.133`
       - `64.188.98.242`
     - DNS IPv6
-      - `2a05:541:104:7f::1`
+      - `2a12:bec4:1460:d5::2`
       - `2a01:ecc0:2c1:2::2`
     - DNS over HTTPS (DoH)
       - [Cloudflare gateway **(рекомендуется)**](https://info.dns.malw.link/setup/cloudflare)
