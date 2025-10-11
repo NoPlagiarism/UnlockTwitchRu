@@ -1,10 +1,13 @@
-# Возвращаем 1080p на Twitch
+# Возвращаем 1080p (1440p) на Twitch
 
 ## Способы
 
 ### (Бес)платный VPN
 
-Да, можно использовать VPN/Proxy ([список неплохих платных VPN тут](https://t.me/vpnconfession/27)). Для возвращения 1080p достаточно проксировать `usher.ttvnw.net` и `gql.twitch.tv`
+Да, можно использовать VPN/Proxy ([список неплохих платных VPN тут](https://t.me/vpnconfession/27)). Для возвращения нормального качества достаточно проксировать `usher.ttvnw.net` и `gql.twitch.tv`
+
+> [!WARNING]
+> [Стоит помнить, что 1440p поддерживается не в каждой стране.](https://help.twitch.tv/s/article/stream-quality?language=en_US#FAQ)
 
 ---
 
@@ -28,7 +31,7 @@
 - [**GitHub репозиторий**](https://github.com/younesaassila/ttv-lol-pro)
 
 > [!NOTE]
-> Методы ниже связаны с DNS ([XBox DNS](https://xbox-dns.ru) & [dns.malw.link](https://info.dns.malw.link)). Могут дать доступ к 2к (1440p)
+> Методы ниже связаны с DNS ([XBox DNS](https://xbox-dns.ru) & [dns.malw.link](https://info.dns.malw.link))
 
 ### DNS
 
@@ -82,7 +85,7 @@
 Если перенаправлять только `usher.ttvnw.net` и `gql.twitch.tv` на нужный IP, то можно не менять DNS глобально
 
 > [!TIP]
-> Пока [dns.malw.link имеет свой официальный Hosts](https://info.dns.malw.link/hosts), [XBox DNS](https://t.me/xbox_dns) не поддерживает подобного и не планирует в ближайшем будущем. Но продвинутые пользователи могут попробовать DNS Forwarding
+> Пока [dns.malw.link имеет свой официальный Hosts (который будет использоваться ниже)](https://info.dns.malw.link/hosts), [XBox DNS](https://xbox-dns.ru) не поддерживает подобного и не планирует в ближайшем будущем. Но продвинутые пользователи могут попробовать DNS Forwarding
 >
 > Для Windows - [YogaDNS](https://www.yogadns.com), а для Linux & OpenWRT - [dnsmasq](https://wiki.archlinux.org/title/Dnsmasq#DNS_addresses_file_and_forwarding)
 
