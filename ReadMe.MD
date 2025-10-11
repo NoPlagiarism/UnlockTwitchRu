@@ -27,19 +27,8 @@
 - [**Firefox**](https://addons.mozilla.org/ru/firefox/addon/reyohoho-twitch-proxy)
 - [**GitHub репозиторий**](https://github.com/younesaassila/ttv-lol-pro)
 
----
-
-> [!CAUTION]
-> **Важное сообщение от 09.10.2025**
->
-> Twitch обновил метод подтверждения IP, сломав некоторые способы обхода. Глобальный VPN или на домены, упомянутые выше - ещё работает. Также, браузерные расширения, тоже работают
->
-> Из методов ниже ничего не работает
-
----
-
 > [!NOTE]
-> Методы ниже связаны с DNS ([XBox DNS](https://xbox-dns.ru) & [dns.malw.link](https://info.dns.malw.link))
+> Методы ниже связаны с DNS ([XBox DNS](https://xbox-dns.ru) & [dns.malw.link](https://info.dns.malw.link)). Могут дать доступ к 2к (1440p)
 
 ### DNS
 
@@ -90,7 +79,7 @@
 
 ### Hosts
 
-Если перенаправлять только `usher.ttvnw.net` на нужный IP, то можно не менять DNS глобально
+Если перенаправлять только `usher.ttvnw.net` и `gql.twitch.tv` на нужный IP, то можно не менять DNS глобально
 
 > [!TIP]
 > Пока [dns.malw.link имеет свой официальный Hosts](https://info.dns.malw.link/hosts), [XBox DNS](https://t.me/xbox_dns) не поддерживает подобного и не планирует в ближайшем будущем. Но продвинутые пользователи могут попробовать DNS Forwarding
@@ -99,10 +88,11 @@
 
 #### ПК (Windows / Linux / MacOS)
 
-[Найдите hosts файл](https://1cloud.ru/help/dns/file-hosts) и внесите туда следующую строку
+[Найдите hosts файл](https://1cloud.ru/help/dns/file-hosts) и внесите туда следующие строки
 
 ```
-45.95.233.23 usher.ttvnw.net
+185.246.223.127 usher.ttvnw.net
+185.246.223.127 gql.twitch.tv
 ```
 
 #### [AdAway (Android)](https://github.com/AdAway/AdAway)
