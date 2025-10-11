@@ -4,7 +4,7 @@
 
 ### (Бес)платный VPN
 
-Да, можно использовать VPN/Proxy ([список неплохих платных VPN тут](https://t.me/vpnconfession/27)). Для возвращения нормального качества достаточно проксировать `usher.ttvnw.net` и `gql.twitch.tv`
+Да, можно использовать VPN/Proxy. Для возвращения нормального качества достаточно проксировать `usher.ttvnw.net` и `gql.twitch.tv`
 
 > [!WARNING]
 > [Стоит помнить, что 1440p поддерживается не в каждой стране.](https://help.twitch.tv/s/article/stream-quality?language=en_US#FAQ)
