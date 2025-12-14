@@ -31,7 +31,7 @@
 - [**GitHub репозиторий**](https://github.com/younesaassila/ttv-lol-pro)
 
 > [!NOTE]
-> Методы ниже связаны с DNS ([XBox DNS](https://xbox-dns.ru) & [dns.malw.link](https://info.dns.malw.link))
+> Методы ниже связаны с DNS ([XBox DNS](https://xbox-dns.ru) & [dns.malw.link](https://info.dns.malw.link) & [DNS mafioznik.xyz](https://freedom.mafioznik.xyz))
 
 ### DNS
 
@@ -77,6 +77,15 @@
       - `dns.malw.link`
     - DNSCrypt stamp
       - `sdns://AgYAAAAAAAAADDQ1Ljk1LjIzMy4yMwANZG5zLm1hbHcubGluawovZG5zLXF1ZXJ5`
+- [DNS mafioznik.xyz](https://freedom.mafioznik.xyz)
+  - [Актуальные данные есть на сайте freedom.mafioznik.xyz](https://freedom.mafioznik.xyz)
+  - Данные для подключения
+    - DNS IPv4
+      - `103.27.157.38`
+    - DNS over HTTPS (DoH)
+      - `https://dns.mafioznik.xyz/dns-query`
+    - DNS over TLS (DoT)
+      - `dns.mafioznik.xyz`
 
 </details>
 
@@ -85,9 +94,13 @@
 Если перенаправлять только `usher.ttvnw.net` и `gql.twitch.tv` на нужный IP, то можно не менять DNS глобально
 
 > [!TIP]
-> Пока [dns.malw.link имеет свой официальный Hosts (который будет использоваться ниже)](https://info.dns.malw.link/hosts), [XBox DNS](https://xbox-dns.ru) не поддерживает подобного и не планирует в ближайшем будущем. Но продвинутые пользователи могут попробовать DNS Forwarding
+> [XBox DNS](https://xbox-dns.ru) не поддерживает подобного и не планирует в ближайшем будущем. Но продвинутые пользователи могут попробовать DNS Forwarding
 >
 > Для Windows - [YogaDNS](https://www.yogadns.com), а для Linux & OpenWRT - [dnsmasq](https://wiki.archlinux.org/title/Dnsmasq#DNS_addresses_file_and_forwarding)
+
+- IP для Hosts
+  - [dns.malw.link](https://info.dns.malw.link/hosts) - `185.246.223.127`
+  - [DNS mafioznik.xyz](https://freedom.mafioznik.xyz) - `103.27.157.38`
 
 #### ПК (Windows / Linux / MacOS)
 
