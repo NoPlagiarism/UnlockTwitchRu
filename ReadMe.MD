@@ -82,6 +82,7 @@
   - Данные для подключения
     - DNS IPv4
       - `103.27.157.38`
+      - `103.27.157.100`
     - DNS over HTTPS (DoH)
       - `https://dns.mafioznik.xyz/dns-query`
     - DNS over TLS (DoT)
