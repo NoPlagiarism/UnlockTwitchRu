@@ -83,7 +83,6 @@
     - DNS over TLS (DoT)
       - `dns.geohide.ru`
 
-> [!WARNING]
 > На момент января 2026 dns.malw.link не работает стабильно
 
 - [dns.malw.link](https://info.dns.malw.link)
