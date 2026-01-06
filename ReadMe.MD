@@ -60,6 +60,20 @@
       - [Конфиг для MacOS / iOS](https://xbox-dns.ru/ios/xbox-dns.mobileconfig)
     - DNS over TLS (DoT)
       - `xbox-dns.ru`
+- [DNS mafioznik.xyz](https://freedom.mafioznik.xyz)
+  - [Актуальные данные есть на сайте freedom.mafioznik.xyz](https://freedom.mafioznik.xyz)
+  - Данные для подключения
+    - DNS IPv4
+      - `103.27.157.38`
+      - `103.27.157.100`
+    - DNS over HTTPS (DoH)
+      - `https://dns.mafioznik.xyz/dns-query`
+    - DNS over TLS (DoT)
+      - `dns.mafioznik.xyz`
+
+> [!WARNING]
+> На момент января 2026 dns.malw.link не работает стабильно
+
 - [dns.malw.link](https://info.dns.malw.link)
   - [Актуальные данные есть на сайте info.dns.malw.link](https://info.dns.malw.link) / [Telegram канал](https://t.me/immalware)
   - Данные для подключения
@@ -77,16 +91,6 @@
       - `dns.malw.link`
     - DNSCrypt stamp
       - `sdns://AgYAAAAAAAAADDQ1Ljk1LjIzMy4yMwANZG5zLm1hbHcubGluawovZG5zLXF1ZXJ5`
-- [DNS mafioznik.xyz](https://freedom.mafioznik.xyz)
-  - [Актуальные данные есть на сайте freedom.mafioznik.xyz](https://freedom.mafioznik.xyz)
-  - Данные для подключения
-    - DNS IPv4
-      - `103.27.157.38`
-      - `103.27.157.100`
-    - DNS over HTTPS (DoH)
-      - `https://dns.mafioznik.xyz/dns-query`
-    - DNS over TLS (DoT)
-      - `dns.mafioznik.xyz`
 
 </details>
 
@@ -100,16 +104,16 @@
 > Для Windows - [YogaDNS](https://www.yogadns.com), а для Linux & OpenWRT - [dnsmasq](https://wiki.archlinux.org/title/Dnsmasq#DNS_addresses_file_and_forwarding)
 
 - IP для Hosts
-  - [dns.malw.link](https://info.dns.malw.link/hosts) - `185.246.223.127`
   - [DNS mafioznik.xyz](https://freedom.mafioznik.xyz) - `103.27.157.38`
+  - [dns.malw.link](https://info.dns.malw.link/hosts) - `185.246.223.127`
 
 #### ПК (Windows / Linux / MacOS)
 
 [Найдите hosts файл](https://1cloud.ru/help/dns/file-hosts) и внесите туда следующие строки
 
 ```
-185.246.223.127 usher.ttvnw.net
-185.246.223.127 gql.twitch.tv
+103.27.157.38 usher.ttvnw.net
+103.27.157.38 gql.twitch.tv
 ```
 
 #### [AdAway (Android)](https://github.com/AdAway/AdAway)
