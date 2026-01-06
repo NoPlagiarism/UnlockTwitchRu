@@ -70,6 +70,18 @@
       - `https://dns.mafioznik.xyz/dns-query`
     - DNS over TLS (DoT)
       - `dns.mafioznik.xyz`
+- [GeoHide](https://dns.geohide.ru:8443)
+  - [Актуальные данные есть на сайте dns.geohide.ru:8443](https://dns.geohide.ru:8443)
+  - Данные для подключения
+    - DNS IPv4
+      - `95.182.120.241`
+      - `185.87.51.182`
+    - DNS IPv6
+      - `2a0c:9300:0:54::1`
+    - DNS over HTTPS (DoH)
+      - `https://dns.geohide.ru:444/dns-query`
+    - DNS over TLS (DoT)
+      - `dns.geohide.ru`
 
 > [!WARNING]
 > На момент января 2026 dns.malw.link не работает стабильно
@@ -105,6 +117,7 @@
 
 - IP для Hosts
   - [DNS mafioznik.xyz](https://freedom.mafioznik.xyz) - `103.27.157.38`
+  - [GeoHide](https://dns.geohide.ru:8443) - `95.182.120.241` и/или `185.87.51.182`
   - [dns.malw.link](https://info.dns.malw.link/hosts) - `185.246.223.127`
 
 #### ПК (Windows / Linux / MacOS)
