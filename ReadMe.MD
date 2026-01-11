@@ -116,7 +116,7 @@
 
 - IP для Hosts
   - [DNS mafioznik.xyz](https://freedom.mafioznik.xyz) - `103.27.157.38`
-  - [GeoHide](https://dns.geohide.ru:8443) - `95.182.120.241` и/или `185.87.51.182`
+  - [GeoHide](https://dns.geohide.ru:8443) - `45.155.204.190` и/или `95.182.120.241`
   - [dns.malw.link](https://info.dns.malw.link/hosts) - `185.246.223.127`
 
 #### ПК (Windows / Linux / MacOS)
