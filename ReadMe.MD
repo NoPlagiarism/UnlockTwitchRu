@@ -32,6 +32,8 @@
 
 > [!NOTE]
 > Методы ниже связаны с DNS ([XBox DNS](https://xbox-dns.ru) & [GeoHide](https://dns.geohide.ru:8443) & [dns.malw.link](https://info.dns.malw.link) & [DNS mafioznik.xyz](https://freedom.mafioznik.xyz))
+>
+> **Может привести к показу рекламы!**
 
 ### DNS
 
