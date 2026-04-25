@@ -52,11 +52,11 @@
   - [Актуальные данные есть в их Telegram (@xbox_dns)](https://t.me/xbox_dns)
   - Данные для подключения
     - DNS IPv4
-      - `176.99.11.77`
-      - `80.78.247.254`
+      - `111.88.96.50`
+      - `111.88.96.51`
     - DNS IPv6
-      - `2a00:f940:2:4:2::5d1b`
-      - `2a00:f940:2:4:2::21ed`
+      - `2a00:ab00:1233:26::50`
+      - `2a00:ab00:1233:26::51`
     - DNS over HTTPS (DoH)
       - `https://xbox-dns.ru/dns-query`
       - [Конфиг для MacOS / iOS](https://xbox-dns.ru/ios/xbox-dns.mobileconfig)
@@ -76,10 +76,8 @@
   - [Актуальные данные есть на сайте dns.geohide.ru:8443](https://dns.geohide.ru:8443)
   - Данные для подключения
     - DNS IPv4
-      - `95.182.120.241`
-      - `185.87.51.182`
-    - DNS IPv6
-      - `2a0c:9300:0:54::1`
+      - `45.155.204.190`
+      - `37.230.192.51`
     - DNS over HTTPS (DoH)
       - `https://dns.geohide.ru:444/dns-query`
     - DNS over TLS (DoT)
@@ -118,8 +116,8 @@
 
 - IP для Hosts
   - [DNS mafioznik.xyz](https://freedom.mafioznik.xyz) - `103.27.157.38`
-  - [GeoHide](https://dns.geohide.ru:8443) - `45.155.204.190` и/или `95.182.120.241`
-  - [dns.malw.link](https://info.dns.malw.link/hosts) - `185.246.223.127`
+  - [GeoHide](https://dns.geohide.ru:8443) - `45.155.204.190`
+
 
 #### ПК (Windows / Linux / MacOS)
 
